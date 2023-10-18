@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akweis The Barber</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Akweis The Barber</h1>
+        <img src="barber-image.jpg" alt="Akweis The Barber">
+    </header>
+    <main>
+        <section class="booking-options">
+            <a href="#" class="open-calendar">
+                <i class="fas fa-store"></i>
+                <span>In-Store</span>
+                <span class="price">R100</span>
+            </a>
+            <a href="#" class="open-calendar">
+                <i class="fas fa-home"></i>
+                <span>House Call</span>
+                <span class="price">R200+</span>
+            </a>
+        </section>
+    </main>
+
+    <div class="overlay" id="overlay">
+        <div class="calendar-container">
+            <h2>Available Slots</h2>
+            <div class="calendar" id="calendar">
+                <!-- Display available slots here using JavaScript -->
+            </div>
+            <form id="booking-form" class="booking-form">
+                <label for="date">Select a Date:</label>
+                <input type="date" id="date" name="date" required>
+                <label for="time">Select a Time:</label>
+                <select id="time" name="time" required>
+                    <!-- Time slots can be generated using JavaScript -->
+                </select>
+                <button type="submit" id="book-now">Book Now</button>
+                <button id="close-overlay" class="close-overlay" onclick="closeOverlay()">Close</button>
+            </form>
+        </div>
+    </div>
+    <div class="address">
+        <p>Princess Hair Design</p>
+        <p>Hair salon</p>
+        <p>Standard Bank Plaza, 446 Hilda St, Hatfield, Pretoria, 0083</p>
+        <p>66XP+W4 Pretoria</p>
+    </div>
+
+    <footer>
+        &copy; 2023 Akweis The Barber. All rights reserved.
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
