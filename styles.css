@@ -89,24 +89,24 @@ header img {
 /* Styling for the calendar */
 .calendar {
     display: grid;
-    grid-template-columns: repeat(7, 1fr); /* Create 7 columns for days of the week */
-    grid-gap: 10px; /* Adjust the gap between calendar elements */
-    text-align: center; /* Center the text */
-    margin-top: 20px; /* Add some space between booking options and the calendar */
+    grid-template-columns: repeat(7, 1fr); 
+    grid-gap: 10px; 
+    text-align: center; 
+    margin-top: 20px; 
 
 }
 
 .calendar .day {
     padding: 10px;
-    border: 1px solid #ccc; /* Add borders around each day */
-    background-color: #FFF; /* White background for days */
-    color: #333; /* Text color */
+    border: 1px solid #ccc; 
+    background-color: #FFF; 
+    color: #333; 
 }
 
 .calendar .today {
-    background-color: #621B20; /* Styling for the current day */
-    color: #F3F5F6; /* Text color for the current day */
-    font-weight: bold; /* Make the current day's text bold */
+    background-color: #621B20; 
+    color: #F3F5F6; 
+    font-weight: bold; 
 }
 
 
