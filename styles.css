@@ -10,6 +10,9 @@ body {
     font-family: "Lato", sans-serif;
     background-color: #947c52;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 header {

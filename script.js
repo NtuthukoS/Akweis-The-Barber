@@ -38,10 +38,11 @@ function populateServiceOptions(options) {
         const optionElement = document.createElement("option");
         optionElement.text = option;
         serviceSelect.add(optionElement);
-    }):
+    });
 
 
 function closeOverlay() {
     const overlay = document.getElementById("overlay");
     overlay.style.display = "none";
+}
 }
