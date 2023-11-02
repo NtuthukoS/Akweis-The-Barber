@@ -13,18 +13,19 @@
     </header>
     <main>
         <section class="booking-options">
-            <a href="#" class="open-calendar" data-booking-type="in-store">
+            <a href="#" class="open-calendar">
                 <i class="fas fa-store"></i>
                 <span>In-Store</span>
-                <span class="price">From R100</span>
+                <span class="price">R100</span>
             </a>
-            <a href="#" class="open-calendar" data-booking-type="house-call">
+            <a href="#" class="open-calendar">
                 <i class="fas fa-home"></i>
                 <span>House Call</span>
-                <span class="price">From R400+</span>
+                <span class="price">R200+</span>
             </a>
         </section>
     </main>
+
     <div class="overlay" id="overlay">
         <div class="calendar-container">
             <h2>Available Slots</h2>
@@ -38,16 +39,6 @@
                 <select id="time" name="time" required>
                     <!-- Time slots can be generated using JavaScript -->
                 </select>
-                <label for="service">Select a Service:</label>
-                <select id="service" name="service" required>
-                    <!-- Service options will be populated using JavaScript -->
-                </select>
-                <label for="name">Your Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="contact">Contact Number:</label>
-                <input type="tel" id="contact" name="contact" required>
-                <label for="deposit">Deposit (50% required for house call):</label>
-                <input type="text" id="deposit" name="deposit" required>
                 <button type="submit" id="book-now">Book Now</button>
                 <button id="close-overlay" class="close-overlay" onclick="closeOverlay()">Close</button>
             </form>
@@ -59,9 +50,11 @@
         <p>Standard Bank Plaza, 446 Hilda St, Hatfield, Pretoria, 0083</p>
         <p>66XP+W4 Pretoria</p>
     </div>
+
     <footer>
         &copy; 2023 Akweis The Barber. All rights reserved.
     </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
